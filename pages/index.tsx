@@ -39,7 +39,10 @@ const Home: NextPage = () => {
           property="og:description"
           content="I'm an IT lover. Building great and helpful things is what makes me motivated."
         />
-        <meta property="og:image" content={Banner.default.src} />
+        <meta
+          property="og:image"
+          content={'https://aboubak.art' + Banner.default.src}
+        />
         {/* <!-- Twitter Meta Tags --> */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="aboubak.art" />
@@ -52,7 +55,10 @@ const Home: NextPage = () => {
           name="twitter:description"
           content="I'm an IT lover. Building great and helpful things is what makes me motivated."
         />
-        <meta name="twitter:image" content={Banner.default.src} />
+        <meta
+          name="twitter:image"
+          content={'https://aboubak.art' + Banner.default.src}
+        />
       </Head>
 
       <main>
