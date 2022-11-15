@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import { CSSProperties } from 'react'
-import { Me, Background } from '../assets'
+import { Me, Background, Banner } from '../assets'
 import {
   BsGithub,
   BsTwitter,
@@ -28,6 +28,31 @@ const Home: NextPage = () => {
           content="I'm an IT lover. Building great and helpful things is what makes me motivated."
         />{' '}
         <link rel="icon" href={Me.default.src} />
+        {/* <!-- Facebook Meta Tags --> */}
+        <meta property="og:url" content="https://aboubak.art" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Aboubakar Sidik Faha | Full-stack DevOps"
+        />
+        <meta
+          property="og:description"
+          content="I'm an IT lover. Building great and helpful things is what makes me motivated."
+        />
+        <meta property="og:image" content={Banner.default.src} />
+        {/* <!-- Twitter Meta Tags --> */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="aboubak.art" />
+        <meta property="twitter:url" content="https://aboubak.art" />
+        <meta
+          name="twitter:title"
+          content="Aboubakar Sidik Faha | Full-stack DevOps"
+        />
+        <meta
+          name="twitter:description"
+          content="I'm an IT lover. Building great and helpful things is what makes me motivated."
+        />
+        <meta name="twitter:image" content={Banner.default.src} />
       </Head>
 
       <main>
@@ -45,7 +70,7 @@ const Home: NextPage = () => {
             shadow-2xl
           `}
           >
-            <Image src={Me} alt="Image of Aboubakar Sidik Faha" />
+            <Image priority src={Me} alt="Image of Aboubakar Sidik Faha" />
           </div>
           <h1 className="font-bold text-4xl text-center">
             Hi, am{' '}
