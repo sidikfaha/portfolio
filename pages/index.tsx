@@ -99,8 +99,10 @@ const Home: NextPage = () => {
                         href="https://twitter.com/sidikfaha"
                         target="_blank"
                         rel="noreferrer"
+                        className="flex flex-col gap-1 items-center text-xs"
                       >
                         <BsTwitter size={24} />
+                        Twitter
                       </a>
                     </li>
                     <li>
@@ -108,8 +110,10 @@ const Home: NextPage = () => {
                         href="https://github.com/sidikfaha"
                         target="_blank"
                         rel="noreferrer"
+                        className="flex flex-col gap-1 items-center text-xs"
                       >
                         <BsGithub size={24} />
+                        GitHub
                       </a>
                     </li>
                     <li>
@@ -117,8 +121,10 @@ const Home: NextPage = () => {
                         href="https://linkedin.com/in/fahasidik"
                         target="_blank"
                         rel="noreferrer"
+                        className="flex flex-col gap-1 items-center text-xs"
                       >
                         <BsLinkedin size={24} />
+                        LinkedIn
                       </a>
                     </li>
                   </ul>
@@ -136,8 +142,10 @@ const Home: NextPage = () => {
                         href="https://wa.me/message/SLCYFRPFTL7AO1"
                         target="_blank"
                         rel="noreferrer"
+                        className="flex flex-col gap-1 items-center text-xs"
                       >
                         <BsWhatsapp size={24} />
+                        Whatsapp
                       </a>
                     </li>
                     <li>
@@ -145,8 +153,10 @@ const Home: NextPage = () => {
                         href="tel:+237679041867"
                         target="_blank"
                         rel="noreferrer"
+                        className="flex flex-col gap-1 items-center text-xs"
                       >
                         <BsPhone size={24} />
+                        Call
                       </a>
                     </li>
                     <li>
@@ -154,8 +164,10 @@ const Home: NextPage = () => {
                         href="mailto:joefaha1@gmail.com"
                         target="_blank"
                         rel="noreferrer"
+                        className="flex flex-col gap-1 items-center text-xs"
                       >
                         <BsEnvelope size={24} />
+                        Email
                       </a>
                     </li>
                   </ul>
